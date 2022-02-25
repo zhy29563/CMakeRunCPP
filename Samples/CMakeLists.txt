@@ -71,7 +71,12 @@ ADD_EXECUTABLE(999_sample_address_book      sources/itheima/phase_01_basic_gramm
 #######################################################################################################################
 # 第二阶段  C++核心编程         职工管理系统
 ADD_EXECUTABLE(001_memory_model             sources/itheima/phase_02_core_programing/001_memory_model.cpp)
-
+ADD_EXECUTABLE(002_reference                sources/itheima/phase_02_core_programing/002_reference.cpp)
+ADD_EXECUTABLE(003_reference_function       sources/itheima/phase_02_core_programing/003_reference_function.cpp)
+ADD_EXECUTABLE(004_reference_essence        sources/itheima/phase_02_core_programing/004_reference_essence.cpp)
+ADD_EXECUTABLE(005_reference_const          sources/itheima/phase_02_core_programing/005_reference_const.cpp)
+ADD_EXECUTABLE(006_function_parameter       sources/itheima/phase_02_core_programing/006_function_parameter.cpp)
+ADD_EXECUTABLE(007_function_overide         sources/itheima/phase_02_core_programing/007_function_overide.cpp)
 #######################################################################################################################
 # 第三阶段  C++提高编程         演讲比赛系统
 
