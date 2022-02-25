@@ -70,6 +70,7 @@ ADD_EXECUTABLE(050_struct_sample2           sources/itheima/phase_01_basic_gramm
 ADD_EXECUTABLE(999_sample_address_book      sources/itheima/phase_01_basic_grammer/999_sample_address_book.cpp)
 #######################################################################################################################
 # 第二阶段  C++核心编程         职工管理系统
+ADD_EXECUTABLE(001_memory_model             sources/itheima/phase_02_core_programing/001_memory_model.cpp)
 
 #######################################################################################################################
 # 第三阶段  C++提高编程         演讲比赛系统
