@@ -66,6 +66,8 @@ ADD_EXECUTABLE(047_struct_function          sources/itheima/phase_01_basic_gramm
 ADD_EXECUTABLE(048_struct_const             sources/itheima/phase_01_basic_grammer/048_struct_const.cpp)
 ADD_EXECUTABLE(049_struct_sample1           sources/itheima/phase_01_basic_grammer/049_struct_sample1.cpp)
 ADD_EXECUTABLE(050_struct_sample2           sources/itheima/phase_01_basic_grammer/050_struct_sample2.cpp)
+
+ADD_EXECUTABLE(999_sample_address_book      sources/itheima/phase_01_basic_grammer/999_sample_address_book.cpp)
 #######################################################################################################################
 # 第二阶段  C++核心编程         职工管理系统
 
