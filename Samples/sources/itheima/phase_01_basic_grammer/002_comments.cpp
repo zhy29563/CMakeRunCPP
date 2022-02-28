@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 /**********************************************************************************************************************
@@ -14,7 +14,7 @@ using namespace std;
 
 int main()
 {
-	// 单行注释
+    // 单行注释
 
     /*
      * 多
@@ -23,7 +23,6 @@ int main()
      * 释
      */
 
-
-	system("pause");
-	return 0;
+    system("pause");
+    return 0;
 }
