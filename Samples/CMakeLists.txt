@@ -125,6 +125,18 @@ ADD_EXECUTABLE(049_file_ascii_write         sources/itheima/phase_02_core_progra
 ADD_EXECUTABLE(050_file_ascii_read          sources/itheima/phase_02_core_programing/050_file_ascii_read.cpp)
 ADD_EXECUTABLE(051_file_binary_write        sources/itheima/phase_02_core_programing/051_file_binary_write.cpp)
 ADD_EXECUTABLE(052_file_binary_read         sources/itheima/phase_02_core_programing/052_file_binary_read.cpp)
+
+
+ADD_EXECUTABLE(999_example_employee_system  sources/itheima/phase_02_core_programing/999_example_employee_system.cpp
+                                            sources/itheima/phase_02_core_programing/999_example_workerManager.h
+                                            sources/itheima/phase_02_core_programing/999_example_workerManager.cpp
+                                            sources/itheima/phase_02_core_programing/999_example_worker.h
+                                            sources/itheima/phase_02_core_programing/999_example_employee.h
+                                            sources/itheima/phase_02_core_programing/999_example_employee.cpp
+                                            sources/itheima/phase_02_core_programing/999_example_manager.h
+                                            sources/itheima/phase_02_core_programing/999_example_manager.cpp
+                                            sources/itheima/phase_02_core_programing/999_example_boss.h
+                                            sources/itheima/phase_02_core_programing/999_example_boss.cpp)
 #######################################################################################################################
 # 第三阶段  C++提高编程         演讲比赛系统
 
