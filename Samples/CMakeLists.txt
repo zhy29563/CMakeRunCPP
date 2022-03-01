@@ -139,6 +139,32 @@ ADD_EXECUTABLE(999_example_employee_system  sources/itheima/phase_02_core_progra
                                             sources/itheima/phase_02_core_programing/999_example_boss.cpp)
 #######################################################################################################################
 # 第三阶段  C++提高编程         演讲比赛系统
-
+ADD_EXECUTABLE(001_template                 sources/itheima/phase_03_generic_programing/001_template.cpp)
+ADD_EXECUTABLE(002_template_function        sources/itheima/phase_03_generic_programing/002_template_function.cpp)
+ADD_EXECUTABLE(003_template_function_warn   sources/itheima/phase_03_generic_programing/003_template_function_warn.cpp)
+ADD_EXECUTABLE(004_template_function_example
+                                            sources/itheima/phase_03_generic_programing/004_template_function_example.cpp)
+ADD_EXECUTABLE(005_template_function_difference
+                                            sources/itheima/phase_03_generic_programing/005_template_function_difference.cpp)
+ADD_EXECUTABLE(006_template_function_invoke_rule
+                                            sources/itheima/phase_03_generic_programing/006_template_function_invoke_rule.cpp)
+ADD_EXECUTABLE(007_template_function_limitation
+                                            sources/itheima/phase_03_generic_programing/007_template_function_limitation.cpp)
+ADD_EXECUTABLE(008_template_class           sources/itheima/phase_03_generic_programing/008_template_class.cpp)
+ADD_EXECUTABLE(009_template_class_vs_function
+                                            sources/itheima/phase_03_generic_programing/009_template_class_vs_function.cpp)
+ADD_EXECUTABLE(010_template_class_gen_member_time
+                                            sources/itheima/phase_03_generic_programing/010_template_class_gen_member_time.cpp)
+ADD_EXECUTABLE(011_template_class_as_param  sources/itheima/phase_03_generic_programing/011_template_class_as_param.cpp)
+ADD_EXECUTABLE(012_template_class_inherit   sources/itheima/phase_03_generic_programing/012_template_class_inherit.cpp)
+ADD_EXECUTABLE(013_template_class_member    sources/itheima/phase_03_generic_programing/013_template_class_member.cpp)
+ADD_EXECUTABLE(014_template_class_difference_file
+                                            sources/itheima/phase_03_generic_programing/014_template_class_difference_file.cpp
+                                            sources/itheima/phase_03_generic_programing/014_template_class_person.h
+                                            sources/itheima/phase_03_generic_programing/014_template_class_person.cpp
+                                            sources/itheima/phase_03_generic_programing/014_template_class_person.hpp)
+ADD_EXECUTABLE(015_template_class_friend    sources/itheima/phase_03_generic_programing/015_template_class_friend.cpp)
+ADD_EXECUTABLE(016_template_class_example   sources/itheima/phase_03_generic_programing/016_template_class_example.cpp
+                                            sources/itheima/phase_03_generic_programing/016_template_class_array.hpp)
 #######################################################################################################################
 # 综合大案例：机房预约系统
