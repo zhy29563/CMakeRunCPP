@@ -166,5 +166,22 @@ ADD_EXECUTABLE(014_template_class_difference_file
 ADD_EXECUTABLE(015_template_class_friend    sources/itheima/phase_03_generic_programing/015_template_class_friend.cpp)
 ADD_EXECUTABLE(016_template_class_example   sources/itheima/phase_03_generic_programing/016_template_class_example.cpp
                                             sources/itheima/phase_03_generic_programing/016_template_class_array.hpp)
+ADD_EXECUTABLE(017_stl                      sources/itheima/phase_03_generic_programing/017_stl.cpp)
+ADD_EXECUTABLE(018_stl_basic_type           sources/itheima/phase_03_generic_programing/018_stl_basic_type.cpp)
+ADD_EXECUTABLE(019_stl_customed_type        sources/itheima/phase_03_generic_programing/019_stl_customed_type.cpp)
+ADD_EXECUTABLE(020_stl_nesting              sources/itheima/phase_03_generic_programing/020_stl_nesting.cpp)
+ADD_EXECUTABLE(021_stl_string               sources/itheima/phase_03_generic_programing/021_stl_string.cpp)
+ADD_EXECUTABLE(022_stl_vector               sources/itheima/phase_03_generic_programing/022_stl_vector.cpp)
+ADD_EXECUTABLE(023_stl_deque                sources/itheima/phase_03_generic_programing/023_stl_deque.cpp)
+ADD_EXECUTABLE(024_stl_vector_deque_example sources/itheima/phase_03_generic_programing/024_stl_vector_deque_example.cpp)
+ADD_EXECUTABLE(025_stl_stack                sources/itheima/phase_03_generic_programing/025_stl_stack.cpp)
+ADD_EXECUTABLE(026_stl_queue                sources/itheima/phase_03_generic_programing/026_stl_queue.cpp)
+ADD_EXECUTABLE(027_stl_list                 sources/itheima/phase_03_generic_programing/027_stl_list.cpp)
+ADD_EXECUTABLE(028_stl_set_multiset         sources/itheima/phase_03_generic_programing/028_stl_set_multiset.cpp)
+ADD_EXECUTABLE(029_stl_map_multimap         sources/itheima/phase_03_generic_programing/029_stl_map_multimap.cpp)
+ADD_EXECUTABLE(030_stl_example              sources/itheima/phase_03_generic_programing/030_stl_example.cpp)
+ADD_EXECUTABLE(031_stl_function             sources/itheima/phase_03_generic_programing/031_stl_function.cpp)
+ADD_EXECUTABLE(033_stl_function_itself      sources/itheima/phase_03_generic_programing/033_stl_function_itself.cpp)
+ADD_EXECUTABLE(034_stl_algorithm            sources/itheima/phase_03_generic_programing/034_stl_algorithm.cpp)
 #######################################################################################################################
 # 综合大案例：机房预约系统

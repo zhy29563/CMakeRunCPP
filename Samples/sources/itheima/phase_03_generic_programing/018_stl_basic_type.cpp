@@ -1,0 +1,57 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+using namespace std;
+
+/**********************************************************************************************************************
+ * 存放内置数据类型
+ *
+ *  容器：
+ *      vector
+ *
+ *  算法：
+ *      for_each
+ *
+ *  迭代器：
+ *      vector<int>::iterator
+ *********************************************************************************************************************/
+
+int main()
+{
+    vector<int> v;
+    v.push_back(10);
+    v.push_back(20);
+    v.push_back(30);
+    v.push_back(40);
+
+    // 每一个容器都有自己的迭代器，迭代器是用来遍历容器中的元素
+    // v.begin()                返回迭代器，这个迭代器指向容器中第一个数据
+    // v.end()                  返回迭代器，这个迭代器指向容器元素的最后一个元素的下一个位置
+    // vector<int>::iterator    vector<int>这种容器的迭代器类型
+    vector<int>::iterator iter_begin = v.begin();
+    vector<int>::iterator iter_end = v.end();
+
+    std::cout << "==========================================================" << std::endl;
+    std::cout << "第一种遍历方式" << std::endl;
+    while (iter_begin != iter_end)
+    {
+        cout << *iter_begin << endl;
+        iter_begin++;
+    }
+
+    std::cout << "==========================================================" << std::endl;
+    std::cout << "第二种遍历方式" << std::endl;
+    for (vector<int>::iterator it = v.begin(); it != v.end(); it++)
+    {
+        cout << *it << endl;
+    }
+
+    std::cout << "==========================================================" << std::endl;
+    std::cout << "第三种遍历方式" << std::endl;
+    // 使用STL提供标准遍历算法  头文件 algorithm
+    for_each(v.begin(), v.end(), [](int val) -> void
+             { std::cout << val << std::endl; });
+
+    system("pause");
+    return 0;
+}
